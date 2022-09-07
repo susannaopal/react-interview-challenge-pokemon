@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import './App.css';
 import CaughtPokemon from './Views/CaughtPokemon.js';
+import PokemonDetails from './Views/PokemonDetails.js';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       </header>
       <Routes>
         <Route index element={<CaughtPokemon />} />
+        <Route path=":pokemonName" element={<PokemonDetails />} />
       </Routes>
     </div>
   );
