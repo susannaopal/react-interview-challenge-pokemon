@@ -5,6 +5,12 @@
 #### Pro-tip:
 - To better emulate the experience of a technical interview, feel free to record yourself! You can see how long it takes you, you can review the spots that tripped you up, you can review how you are going about talking out loud about what you're doing. 
 
+#### Resources:
+This app needs pokemon info and images when utilizing the form. Feel free to use:
+Name: Shaymin, Level: 30, image: https://assets.pokemon.com/assets/cms2/img/pokedex/full/492.png
+Name: Pikachu, Level: 80, image: https://static.wikia.nocookie.net/pokemon/images/6/6c/Char-pikachu.png
+Name: Pumpkaboo, Level: 10, image: https://assets.pokemon.com/assets/cms2/img/pokedex/detail/710.png
+
 ## Challenge 1: the developer must fix the 3 bugs within the application. 
 
 ## Bug 1
