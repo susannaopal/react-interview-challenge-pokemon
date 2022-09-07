@@ -1,4 +1,4 @@
-# Bug-fix Challenge React
+# Technical Interview Challenge React
 
 ### This codebase is designed to provide technical challenges for interview practice. 
 
