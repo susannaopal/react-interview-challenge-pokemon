@@ -14,8 +14,6 @@ function CaughtPokemon({ setCaughtPokemon, caughtPokemon }) {
       level: pokeLevel,
       image: pokeImage,
     }
-    const pokemon = [...caughtPokemon, newPokemon]
-    setCaughtPokemon(pokemon);
     setPokeName('');
     setPokeLevel(0);
     setPokeImage('');
