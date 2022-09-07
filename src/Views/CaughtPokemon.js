@@ -2,8 +2,7 @@ import { useState } from 'react';
 import PokemonForm from '../Components/PokemonForm.js';
 import PokemonList from '../Components/PokemonList.js';
 
-function CaughtPokemon() {
-  const [caughtPokemon, setCaughtPokemon] = useState([]);
+function CaughtPokemon({ setCaughtPokemon, caughtPokemon }) {
   const [pokeName, setPokeName] = useState('');
   const [pokeLevel, setPokeLevel] = useState(0);
   const [pokeImage, setPokeImage] = useState('');
@@ -11,9 +10,9 @@ function CaughtPokemon() {
   const submitNewPokemon = (e) => {
     e.preventDefault();
     const newPokemon = {
-      name: e.target.elements['poke-name'].value,
-      level: e.target.elements['poke-level'].value,
-      image: e.target.elements['poke-image'].value,
+      name: pokeName,
+      level: pokeLevel,
+      image: pokeImage,
     }
     const pokemon = [...caughtPokemon, newPokemon]
     setCaughtPokemon(pokemon);

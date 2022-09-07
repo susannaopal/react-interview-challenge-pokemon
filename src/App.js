@@ -1,9 +1,11 @@
 import { Routes, Route } from "react-router-dom";
+import { useState } from 'react';
 import './App.css';
 import CaughtPokemon from './Views/CaughtPokemon.js';
 import PokemonDetails from './Views/PokemonDetails.js';
 
 function App() {
+  const [caughtPokemon, setCaughtPokemon] = useState([]);
 
   return (
     <div className="p-10">
@@ -11,7 +13,7 @@ function App() {
         Pokemon Tracker 
       </header>
       <Routes>
-        <Route index element={<CaughtPokemon />} />
+        <Route index element={<CaughtPokemon caughtPokemon={caughtPokemon} setCaughtPokemon={setCaughtPokemon}/>} />
         <Route path=":pokemonName" element={<PokemonDetails />} />
       </Routes>
     </div>
