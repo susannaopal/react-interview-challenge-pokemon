@@ -2,6 +2,10 @@
 
 ### This codebase is designed to provide technical challenges for interview practice. 
 
+##### The app should work (at minimum) like shown in the provided GIF after the bugs are fixed.
+
+![gif of functioning web page](./src/assets/pokemon-challenge.gif)
+
 #### Pro-tip:
 - To better emulate the experience of a technical interview, feel free to record yourself! You can see how long it takes you, you can review the spots that tripped you up, you can review how you are going about talking out loud about what you're doing. 
 
