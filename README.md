@@ -2,7 +2,10 @@
 
 ### This codebase is designed to provide technical challenges for interview practice. 
 
-## Challenge 1: the developer must fix the 2 bugs within the application. 
+#### Pro-tip:
+- To better emulate the experience of a technical interview, feel free to record yourself! You can see how long it takes you, you can review the spots that tripped you up, you can review how you are going about talking out loud about what you're doing. 
+
+## Challenge 1: the developer must fix the 3 bugs within the application. 
 
 ## Bug 1
 - When the user clicks 'submit' on the form, the data does not update. 
@@ -13,7 +16,7 @@
 ## Bug 3
 - When the user clicks the 'Home' button on the pokemon details page, they are not taken home. They _should_ be taken to the home page and still see all caught pokemon.
 
-### Once you have completed the challenge, write up a reflection. What was the issue in each case? How did you identify the problem? How did you fix the problem? Is there another way you could have fixed the problem? 
+### Once you have completed this challenge, write up a reflection. What was the issue in each case? How did you identify the problem? How did you fix the problem? Is there another way you could have fixed the problem? 
 
 ## Challenge 2: the developer must add a new feature
 
@@ -29,8 +32,8 @@
 ## Feature 4
 - When a user adds a new pokemon, that pokemon is added to their local storage. (the page should show the new pokemon based on local storage)
 
+### Once you have completed this challenge, write up a reflection. How did you decide to implement each feature? What information would you have asked an interviewer? Is there another way to do it? 
 
-## 
 #### To run the project: 
 
 - fork, clone, and `cd` into the repo.
