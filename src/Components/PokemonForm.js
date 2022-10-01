@@ -1,4 +1,25 @@
+import PokemonDetails from '../Views/PokemonDetails'
+//needed to import the PokeDetails file 
 function PokemonForm({ submitNewPokemon, pokeName, pokeLevel, pokeImage, setPokeLevel, setPokeImage, setPokeName }) {
+
+
+  //form does not seem to have any kind of functionality => submission does nothing
+  //what is legend? fieldset? => 
+  //onChange is working but it isn't updating anything (can see this updated in the react tools)
+  //button will need an onClick function to capture the data updated in the onChange
+
+  /* Bug 1
+When the user clicks 'submit' on the form, the data does not update.
+ */
+
+//create functionality for an onClick
+
+const submitData = (event) => {
+  event.preventDefault()
+  console.log("Am I even submitting?")
+}
+
+   
   return (
     <form onSubmit={(e) => submitNewPokemon(e)}>
 
@@ -23,7 +44,7 @@ function PokemonForm({ submitNewPokemon, pokeName, pokeLevel, pokeImage, setPoke
             </div>
           </div>
           <div className="col-span-12 pt-5">
-            <button className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Submit</button>
+            <button className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" onClick={submitData}>Submit</button>
           </div>
         </div>
       </fieldset>

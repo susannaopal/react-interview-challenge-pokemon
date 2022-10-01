@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+//import the caughtpoke file / do we need? how else does state get transferred to here from that file otherwise?
+import CaughtPokemon from '../Views/CaughtPokemon';
 
 function PokemonList({ caughtPokemon }) {
   return (
